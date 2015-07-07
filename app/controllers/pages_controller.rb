@@ -15,38 +15,33 @@ class PagesController < ApplicationController
     # STUB
   end
 
-  # Display the 'Services: Good Clinical Practices' page (app/views/pages/gcp.html.erb)
+  # Display the 'Good Clinical Practices (GCP) Audits' page (app/views/pages/gcp.html.erb)
   def gcp
     # STUB
   end
 
-  # Display the 'Services: Investigator Initiated Trials' page (app/views/pages/iit.html.erb)
+  # Display the 'Investigator Initiated Trials' page (app/views/pages/iit.html.erb)
   def iit
     # STUB
   end
 
-  # Display the 'Services: Good Laboratory Practices' page (app/views/pages/glp.html.erb)
-  def glp
+  # Display the 'Laboratory Audits' page (app/views/pages/glp.html.erb)
+  def lab
     # STUB
   end
 
-  # Display the 'Services: Electronic Systems and Part 11' page (app/views/pages/part11.html.erb)
+  # Display the 'Electronic Systems and Part 11' page (app/views/pages/part11.html.erb)
   def part11
     # STUB
   end
 
-  # Display the 'Services: Data and Documents' page (app/views/pages/data.html.erb)
+  # Display the 'Data and Documents' page (app/views/pages/data.html.erb)
   def data
     # STUB
   end
 
-  # Display the 'Services: Reporting' page (app/views/pages/reporting.html.erb)
+  # Display the 'Reporting' page (app/views/pages/reporting.html.erb)
   def reporting
-    # STUB
-  end
-
-  # Display the 'Services: Strategic Consulting' page (app/views/pages/strategic.html.erb)
-  def strategic
     # STUB
   end
 

@@ -7,7 +7,7 @@
   <meta name="description" content="Achieve Quality GCP/GLP Consulting">
   <meta name="author" content="Tom Kelly - TomK0874@gmail.com">
   <link rel="icon" href="<%= asset_path 'icon.png' %>">
-  <title>Achieve Quality<%= active_title %></title>
+  <title><%= active_title %>Achieve Quality</title>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -34,7 +34,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" id="page-title" href="/"><%= image_tag "logo.png" %>Achieve Quality</a>
+      <a class="navbar-brand" id="company-name" href="/"><%= image_tag "logo.png" %>Achieve Quality</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -42,13 +42,12 @@
         <li class="dropdown <%= active_class("/services/*") %>">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="<%= active_class("/services/gcp") %>"><%= link_to "GCP", "/services/gcp" %></li>
+            <li class="<%= active_class("/services/gcp") %>"><%= link_to "GCP Audits", "/services/gcp" %></li>
             <li class="<%= active_class("/services/iit") %>"><%= link_to "Investigator Initiated Trials", "/services/iit" %></li>
-            <li class="<%= active_class("/services/glp") %>"><%= link_to "GLP", "/services/glp" %></li>
-            <li class="<%= active_class("/services/part11") %>"><%= link_to "Electronic Systems & Part 11", "/services/part11" %></li>
-            <li class="<%= active_class("/services/data") %>"><%= link_to "Data & Documents", "/services/data" %></li>
+            <li class="<%= active_class("/services/lab") %>"><%= link_to "Laboratory Audits", "/services/lab" %></li>
+            <li class="<%= active_class("/services/part11") %>"><%= link_to "Electronic Systems and Part 11", "/services/part11" %></li>
+            <li class="<%= active_class("/services/data") %>"><%= link_to "Data and Documents", "/services/data" %></li>
             <li class="<%= active_class("/services/reporting") %>"><%= link_to "Reporting", "/services/reporting" %></li>
-            <li class="<%= active_class("/services/strategic") %>"><%= link_to "Strategic Consulting", "/services/strategic" %></li>
           </ul>
         </li>
         <li class="<%= active_class("/about") %>"><%= link_to "About", "/about" %></li>
@@ -64,7 +63,10 @@
 <!-- FOOTER -->
 <div class="container">
   <br/>
-  <p id="page-footer">&copy; 2015  Achieve Quality, Inc.</p>
+  <p id="page-footer">
+    &copy; 2015  Achieve Quality, Inc.<br/>
+    This website was developed by <a href="mailto:TomK0874@gmail.com">Tom Kelly</a>, 2015
+  </p>
 </div>
 
 </body>

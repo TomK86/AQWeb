@@ -6,11 +6,10 @@ module ApplicationHelper
     elsif (link_path == "/services/*") &&
           ( current_page?("/services/gcp") ||
             current_page?("/services/iit") ||
-            current_page?("/services/glp") ||
+            current_page?("/services/lab") ||
             current_page?("/services/part11") ||
             current_page?("/services/data") ||
-            current_page?("/services/reporting") ||
-            current_page?("/services/strategic") )
+            current_page?("/services/reporting") )
       "active"
     else
       ""
@@ -21,23 +20,21 @@ module ApplicationHelper
     if current_page?("/")
       ""
     elsif current_page?("/about")
-      " | About Us"
+      "About Us | "
     elsif current_page?("/contact")
-      " | Contact Information"
+      "Contact Information | "
     elsif current_page?("/services/gcp")
-      " | Good Clinical Practice Audits"
+      "GCP Audits | "
     elsif current_page?("/services/iit")
-      " | Investigator Initiated Trials"
-    elsif current_page?("/services/glp")
-      " | Good Laboratory Practice Audits"
+      "Investigator Initiated Trials | "
+    elsif current_page?("/services/lab")
+      "Laboratory Audits | "
     elsif current_page?("/services/part11")
-      " | Electronic Systems & Part 11"
+      "Electronic Systems and Part 11 | "
     elsif current_page?("/services/data")
-      " | Data & Documents"
+      "Data and Documents | "
     elsif current_page?("/services/reporting")
-      " | Reporting"
-    elsif current_page?("/services/strategic")
-      " | Strategic Consulting"
+      "Reporting | "
     else
       ""
     end

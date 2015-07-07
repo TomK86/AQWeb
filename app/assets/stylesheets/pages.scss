@@ -1,12 +1,8 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 /* Color Palette */
-/* #00014f; /* navy blue */
-/* #c2cedf; /* light blue */
-/* #b8b8b8; /* dark gray */
-/* #dfdfdf; /* light gray */
+/* color: #00014f; /* navy blue */
+/* color: #c2cedf; /* light blue */
+/* color: #b8b8b8; /* dark gray */
+/* color: #dfdfdf; /* light gray */
 
 /* Default styling for all body elements */
 body {
@@ -15,7 +11,7 @@ body {
   background-color: #c2cedf; /* light blue */
 }
 
-/* Large content header styling */
+/* Large header styling */
 h1 {
   font-family: 'Lobster Two', cursive;
   font-weight: bold;
@@ -24,14 +20,14 @@ h1 {
   padding-bottom: 40px;
 }
 
-/* Small content header styling */
+/* Small header styling */
 h4 {
   font-style: italic;
   color: #00014f; /* navy blue */
   padding-top: 20px;
 }
 
-/* Content text styling */
+/* Paragraph styling */
 p {
   color: black;
 }
@@ -41,27 +37,23 @@ p {
   background-color: #b8b8b8; /* dark gray */
 }
 
-.navbar-default .navbar-fixed-top .navbar-header .navbar-brand > img {
-  
-}
-
-/* Navbar expand button (smaller devices only) */
+/* Background color of navbar expand button (visible on smaller devices only) */
 .navbar .navbar-default .navbar-fixed-top button {
   background-color: #dfdfdf; /* light gray */
 }
 
-/* Icon-bar color (inside navbar expand button) */
+/* Color of navbar expand button's icon-bars (AKA 'burger') */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
 }
 
-/* Text/background color for navbar links */
+/* Text/background color of navbar links */
 .navbar-default .navbar-nav > li > a {
   color: black;
   background: #b8b8b8; /* dark gray */
 }
 
-/* Background color for active navbar link */
+/* Background color of active navbar link */
 .navbar-default .navbar-nav > .active,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -74,14 +66,14 @@ p {
   background: #dfdfdf; /* light gray */
 }
 
-/* Text/background color for navbar dropdown menu */
+/* Text/background color of navbar dropdown menu links */
 .navbar-default .navbar-nav .open .dropdown-menu > li > a,
 .navbar-default .navbar-nav .open .dropdown-menu {
   color: black;
   background: white;
 }
 
-/* Background color for active dropdown menu link */
+/* Background color of active navbar dropdown menu link */
 .navbar-default .navbar-nav .open .dropdown-menu > .active,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -89,33 +81,35 @@ p {
   background: #dfdfdf; /* light gray */
 }
 
-/* Background color when hovering over dropdown menu links */
+/* Background color when hovering over navbar dropdown menu links */
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
   background: #dfdfdf; /* light gray */
 }
 
-#mission {
+/* Mission statement styling (top of 'About Us' page) */
+#mission-stmt {
   font-style: italic;
   font-family: serif;
   font-size: 1.25em;
   padding-bottom: 20px;
 }
 
-/* Page title styling (company name at top left) */
-#page-title {
+/* Company name styling (left side of navbar) */
+#company-name {
   font-family: 'Amaranth', sans-serif;
   font-size: 2.25em;
   color: #00014f; /* navy blue */
   padding-top: 8px;
 }
 
-#page-title > img {
+/* Company logo styling (left side of navbar) */
+#company-name > img {
   display: inline;
   height: 35px;
   width: 58.3px;
 }
 
-/* Page footer styling (copyright at bottom center) */
+/* Page footer styling (copyright info at bottom center of page) */
 #page-footer {
   text-align: center;
   font-family: sans-serif;
