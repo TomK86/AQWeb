@@ -12,9 +12,8 @@ body {
 }
 
 /* Large header styling */
-h1 {
-  font-family: 'Lobster Two', cursive;
-  font-weight: bold;
+h2 {
+  font-family: 'Amaranth', sans-serif;
   color: #00014f; /* navy blue */
   letter-spacing: 1px;
   padding-bottom: 40px;
@@ -30,6 +29,15 @@ h4 {
 /* Paragraph styling */
 p {
   color: black;
+}
+
+/*  */
+@media (min-width: 768px) {
+  .navbar-default {
+    font-size: 1.25em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 /* Navbar background color */
