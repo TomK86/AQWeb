@@ -2,6 +2,6 @@
 
 This website was developed for Achieve Quality, Inc. by Tom Kelly, 2015
 
-Requires Ruby version 2.2.2 and Rails version 4.2.2
+Requires {Ruby version 2.2.2}[https://www.ruby-lang.org/en/downloads/] and {Rails version 4.2.2}[http://rubyonrails.org/download/]
 
 Contact me at TomK0874@gmail.com
