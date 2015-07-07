@@ -1,7 +1,7 @@
 == Achieve Quality, Inc.
 
-This website was created for Achieve Quality, Inc. using the Ruby on Rails framework.
+This website was developed for Achieve Quality, Inc. by Tom Kelly, 2015
 
-Developed by Tom Kelly, 2015
+Requires Ruby version 2.2.2 and Rails version 4.2.2
 
 Contact me at TomK0874@gmail.com
