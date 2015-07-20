@@ -137,9 +137,15 @@ p {
 }
 
 /* Company logo styling (left side of navbar) */
-#logo-md > img, #logo-sm > img, #logo-xs > img {
+#logo-md > img, #logo-sm > img {
   display: inline;
   height: 115px;
+  margin: -50px 50px 0px 0px;
+}
+
+#logo-xs > img {
+  display: inline;
+  height: 100px;
   margin: -50px 50px 0px 0px;
 }
 
