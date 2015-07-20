@@ -1,0 +1,205 @@
+/* Default styling for all body elements */
+/* line 3, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+body {
+  min-height: 700px;
+  padding-top: 160px;
+  background-color: #d9e5f6;
+  /* light blue */
+}
+
+/* Large header styling */
+/* line 10, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #0987bd;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* Small header styling */
+/* line 19, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #0987bd;
+  /* navy blue */
+  padding-top: 20px;
+}
+
+/* This allows for correct scroll placement after page jumps */
+/* line 26, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+h1 > span, h3 > span {
+  margin-top: -180px;
+  padding-bottom: 180px;
+  display: block;
+}
+
+/* Paragraph styling */
+/* line 33, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+p {
+  color: black;
+}
+
+/* Navbar background color */
+/* line 38, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Background color of navbar expand button (visible on smaller devices only) */
+/* line 45, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar .navbar-default .navbar-fixed-top button {
+  background-color: white;
+}
+
+/* Color of navbar expand button's icon-bars (AKA 'burger') */
+/* line 50, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+/* Text/background color of navbar links */
+/* line 55, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  background-color: white;
+  margin: 1px 11px 1px 1px;
+}
+
+/* Border styling of active navbar link */
+/* line 62, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: #0987bd;
+  /* light blue */
+  background-color: white;
+  margin: 0px 10px 0px 0px;
+}
+
+/* Border styling when hovering over navbar links */
+/* line 74, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: #0987bd;
+  /* light blue */
+  background-color: white;
+  margin: 0px 10px 0px 0px;
+}
+
+/* Text/background color of navbar dropdown menu links */
+/* line 84, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu,
+.navbar-default .dropdown-menu {
+  color: black;
+  background-color: white;
+  padding: 1px 2px 1px 2px;
+}
+
+/* Border styling of active navbar dropdown menu link */
+/* line 95, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-nav .open .dropdown-menu .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu .active > a:focus {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #0987bd;
+  /* light blue */
+  background-color: white;
+  padding: 0px 1px 0px 1px;
+}
+
+/* Border styling when hovering over navbar dropdown menu links */
+/* line 107, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #0987bd;
+  /* light blue */
+  background-color: white;
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 116, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+.img-circular {
+  background-size: cover;
+  display: block;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+}
+
+/* Tagline styling (middle of navbar) */
+/* line 125, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+#logo-lg {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  color: #0987bd;
+  margin: -30px 300px 0px 0px;
+  padding-bottom: 0px;
+}
+
+/* Company logo styling (left side of navbar) */
+/* line 134, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+#logo-lg > img {
+  display: inline;
+  height: 135px;
+  margin: -15px 50px 0px 0px;
+}
+
+/* Company logo styling (left side of navbar) */
+/* line 141, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+#logo-md > img, #logo-sm > img, #logo-xs > img {
+  display: inline;
+  height: 115px;
+  margin: -50px 50px 0px 0px;
+}
+
+/* line 147, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+#osd > img {
+  height: 70px;
+}
+
+/* Table of contents styling (top left of GCP services page) */
+/* line 152, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+#toc {
+  background-color: #d1ddee;
+  /* blue */
+}
+
+/* Page footer styling (copyright info at bottom center of page) */
+/* line 157, /Users/tkelly/Documents/Rails_Apps/AQWeb/app/assets/stylesheets/pages.scss */
+#footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.75em;
+  color: black;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
