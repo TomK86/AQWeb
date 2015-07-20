@@ -41,7 +41,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="<%= active_class("/") %>"><%= link_to "Home", "/" %></li>
-        <li class="dropdown <%= active_class("/services/*") %>">
+        <li class="dropdown-submenu <%= active_class("/services/*") %>">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li class="<%= active_class("/services/gcp") %>"><%= link_to "GCP Audits", "/services/gcp" %></li>
