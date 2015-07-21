@@ -1,7 +1,12 @@
-== Achieve Quality, Inc.
+== Achieve Quality, Inc. Website
 
-This website was developed for Achieve Quality, Inc. by Tom Kelly, 2015
+This rails application was developed for Achieve Quality, Inc. by Tom Kelly, 2015
+The website can be viewed {here}[http://www.achievequality.net/].
 
 Requires {Ruby version 2.2.2}[https://www.ruby-lang.org/en/downloads/] and {Rails version 4.2.3}[http://rubyonrails.org/download/]
+
+Once you have the necessary dependencies, navigate to the AQWeb directory in your terminal and run the following command:
+    rails s -p 8080
+Then navigate to http://localhost:8080 in your browser.
 
 Contact me at TomK0874@gmail.com
