@@ -3,8 +3,12 @@ ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
-# Use pg as the database for Active Record
-gem 'pg'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+# Use postgres as the database for Active Record in production
+group :production do
+  gem 'pg', '0.12.2'
+end
 # Use Bootstrap framework
 gem 'bootstrap-sass', '~> 3.3.5'
 # Use SCSS for stylesheets
